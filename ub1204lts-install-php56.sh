@@ -1,5 +1,5 @@
 #!/bin/bash
-# Install PHP 5.6 on Ubuntu 12.04 LTS
+# Install PHP 5.6 on Ubuntu 12.04 LTS - https://youtu.be/FJW75F9HFIM
 # Author: Gabriel Fernandes - gabriel@cd2.com.br
 
 apt-get update -y && apt-get install -y libmcrypt-dev
