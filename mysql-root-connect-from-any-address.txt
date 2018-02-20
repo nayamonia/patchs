@@ -1,0 +1,9 @@
+Verificar /etc/my.cnf ou /etc/mysql.d/my.conf
+[mysqld]
+bind-address=0.0.0.0
+
+se não funcionar, verificar:
+
+mysql -u root -p
+CREATE USER 'root'@'%' IDENTIFIED BY 'gzcloud@2016infra';
+FLUSH PRIVILEGES;
