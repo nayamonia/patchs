@@ -6,4 +6,5 @@ se não funcionar, verificar:
 
 mysql -u root -p
 CREATE USER 'root'@'%' IDENTIFIED BY 'gzcloud@2016infra';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' identified by '[password]';
 FLUSH PRIVILEGES;
