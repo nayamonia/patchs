@@ -38,3 +38,5 @@ print 'Acumulado do dia: %s' % total
 print 'Faltam: %s\n'% falta
 #print 'Extras: %s\n'% extra
 print 'Saida Ideal: %s\n'% saida
+#todo: teste
+#TODO: teste
